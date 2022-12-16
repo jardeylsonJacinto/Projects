@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #7f8081;
+}
+
+.signup-form {
+  width: 500px;
+  height: 900px;
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('https://i.pinimg.com/564x/38/fc/cd/38fccdff5d2f09ff873b26023892be1d.jpg');
+  position: absolute;
+  top: 1px;
+  left: 40%;
+  overflow: hidden;
+}
+
+.signup-form h1 {
+  margin: 115px 0;
+  font-family: 'Permanent Maker', cursive;
+  color: #fff;
+  font-size: 65px;
+}
+
+.signup-form input {
+  display: block;
+  width: 100%;
+  padding: 30px 16px;
+  height: 70px;
+  text-align: center;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-family: 'monstserrat', sans-serif;
+}
+
+.txtb {
+  margin-top: 80px;
+  margin: 50px 0;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 6px;
+}
+
+.signup-btn {
+  margin-bottom: 80px;
+  background: rgba(17, 191, 235, 0.7);
+  color: #000;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.signup-btn:hover {
+  transform: scale(0.96);
+  background: rgba(17, 191, 235, 0.9);
+  color: rgb(255, 255, 255);
+}
+
+.signup-form a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'monstserrat', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  transition: 0.8s;
+  margin: 10px;
+  padding: 10px;
+}
+
+.signup-form a:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #cf344f;
+  color: white;
+  border-radius: 10px;
+}
+
+.photo {
+  height: 100%;
+  width: 100%;
+  background: url('');
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  transition: 0.8s;
+}
+
+.card:hover .photo {
+  transform: scale(0.5, 0.35) translateY(-650);
+  background-size: 100% 150%;
+}
